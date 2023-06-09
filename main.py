@@ -5,7 +5,7 @@ import urllib.request
 phone_number = input("Please enter your mobile phone number with the 98 prefix: ")
 
 
-    print("Please wait for a moment...")
+
 
     # Construct the links to different applications for the phone number
     whatsapp_link = f"https://wa.me/{phone_number}"
