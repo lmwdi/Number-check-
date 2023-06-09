@@ -4,10 +4,7 @@ import urllib.request
 # Get the mobile phone number from the user input
 phone_number = input("Please enter your mobile phone number with the 98 prefix: ")
 
-# Validate the phone number
-if not re.match(r"^98\d{9}$", phone_number):
-    print("The entered mobile phone number is not valid.")
-else:
+
     print("Please wait for a moment...")
 
     # Construct the links to different applications for the phone number
